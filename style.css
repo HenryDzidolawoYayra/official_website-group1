@@ -137,8 +137,6 @@ img{
     margin: 0 auto;
 }
 
-/* Add these styles to your existing style.css file */
-
 .courses-container {
     display: flex;
     flex-direction: column;
@@ -157,7 +155,6 @@ img{
     color: #052D24;
 }
 
-/* Invisible borders table */
 .invisible-borders {
     width: 100%;
     margin-bottom: 5rem;
@@ -181,7 +178,6 @@ img{
     color: #333;
 }
 
-/* Visible borders table */
 .visible-borders {
     width: 100%;
     border-collapse: collapse;
@@ -216,7 +212,6 @@ img{
 }
 
 
-/* Update your main-container style */
 .main-container {
     background-color: #DAFF99;
     border-radius: 8px;
@@ -226,7 +221,6 @@ img{
     overflow-y: auto;
 }
 
-/* Special case for the homepage grid layout */
 .main-container.home-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -365,11 +359,6 @@ img{
     background: #074435;
 }
 
-/* ==================== */
-/* Contact Page Styles  */
-/* ==================== */
-
-/* Contact Details Heading */
 .form-container h1 {
     font-size: 4rem; /* Reduced size */
     margin-bottom: 3rem;
@@ -377,7 +366,6 @@ img{
     color: #fff;
 }
 
-/* Form Styling */
 .form {
     background-color: #fff;
     display: flex;
@@ -434,7 +422,6 @@ img{
     background-color: #074435;
 }
 
-/* Make form contents more visible */
 .form input::placeholder,
 .form textarea::placeholder {
     color: #999;
